@@ -3,7 +3,7 @@
     <!-- card section -->
     <section>
         <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
-            <dashboardCard v-for="card in headerCards" :key="card.id" :title="card.title" :value="card.value" :percentage="card.percentage" :color="card.color" :trend="card.trend" />
+            <dashboardCard v-for="card in headerCards" :key="card.id" :id="card.id" :title="card.title" :value="card.value" :percentage="card.percentage" :color="card.color" :trend="card.trend" />
         </div>
     </section>
 
